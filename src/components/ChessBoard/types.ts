@@ -14,7 +14,7 @@ export enum PieceColor {
 }
 
 export interface SquareProps {
-  square?: string;
+  square: string;
   color?: string;
   location: {
     file: number;
